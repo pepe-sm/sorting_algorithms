@@ -1,7 +1,20 @@
 #include "sort.h"
 
 /**
- * bubble_sort - sort array using bubble
+ * swap - swap 2 integers
+ * @a: int to be swapped
+ * @b: int to be swapped wit
+ */
+void swap(int *i, int *j)
+{
+	int temp = *j;
+
+	*j = *i;
+	*i = temp;
+}
+
+/**
+ * bubble_sort - bubble sort alo
  * @array: array to sorting
  * @size: size of array
  */
