@@ -3,8 +3,8 @@
 
 /**
  * swap_node - interchange nodes
- * @curr: points to list 
- * @list: The list 
+ * @curr: points to list
+ * @list: The list
  */
 
 void swap_nodes(listint_t *curr, listint_t **list)
