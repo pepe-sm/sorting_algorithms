@@ -2,7 +2,7 @@
 
 
 /**
- * swap_node - interchange nodes
+ * swap_nodes - interchange nodes
  * @curr: points to list
  * @list: The list
  */
