@@ -29,5 +29,8 @@ void bubble_sort(int *array, size_t size);
 void swap_nodes(listint_t *temp_rev, listint_t **list);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void recursive_sort(int *array, int one, int end, size_t size);
+int split(int *array, int one, int end, size_t size);
 
 #endif
